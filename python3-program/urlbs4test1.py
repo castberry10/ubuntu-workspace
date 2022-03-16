@@ -1,6 +1,4 @@
 #2022-3-3 
-#in knu v.net 
-#url library test
 
 import urllib.request
 from bs4 import BeautifulSoup 

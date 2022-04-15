@@ -1,0 +1,105 @@
+[<tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">우선 순위 </td>
+<td style="width: 38.9743%; height: 19px;">연산자 </td>
+<td style="width: 49.78%; height: 19px;">설명</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">1</td>
+<td style="width: 38.9743%; height: 19px;">( ), list, dictionary, set 내부 연산식</td>
+<td style="width: 49.78%; height: 19px; text-align: center;">괄호, 리스트, 딕셔너리, set 함수 안쪽 연산식</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">2</td>
+<td style="width: 38.9743%; height: 19px;">list/ tuple의 indexing, slicing</td>
+<td style="width: 49.78%; height: 19px; text-align: center;">인덱싱, 슬라이싱</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">3</td>
+<td style="width: 38.9743%; height: 19px;">**</td>
+<td style="width: 49.78%; height: 19px; text-align: center;">지수 연산자 </td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">4</td>
+<td style="width: 38.9743%; height: 19px;">-, +, ~ </td>
+<td style="width: 49.78%; height: 19px; text-align: center;">단항 연산자, 비트 반전 연산자 (ex. -10, ~18)</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">5</td>
+<td style="width: 38.9743%; height: 19px;">*, /, //, %</td>
+<td style="width: 49.78%; height: 19px; text-align: center;">곱하기 나누기 몫 나머지 </td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">6</td>
+<td style="width: 38.9743%; height: 19px;">+ , - </td>
+<td style="width: 49.78%; height: 19px;">더하기 빼기 </td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">7</td>
+<td style="width: 38.9743%; height: 19px;">&gt;&gt; , &lt;&lt;</td>
+<td style="width: 49.78%; height: 19px; text-align: center;">비트 이동 연산자 (ex. 1 &lt;&lt; 4)</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">8</td>
+<td style="width: 38.9743%; height: 19px;">&amp;</td>
+<td style="width: 49.78%; height: 19px;">논리곱 / Bitwise AND</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">9</td>
+<td style="width: 38.9743%; height: 19px;">^</td>
+<td style="width: 49.78%; height: 19px;">배타적 논리합 / <span style="color: #333333;">Bitwise XOR</span></td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">10</td>
+<td style="width: 38.9743%; height: 19px;">|</td>
+<td style="width: 49.78%; height: 19px;">논리합 / <span style="color: #333333;">Bitwise AND</span></td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">11</td>
+<td style="width: 38.9743%; height: 19px;">in, not in, is, is not, &lt;, &lt;=, &gt;=, !=, ==</td>
+<td style="width: 49.78%; height: 19px;">비교 연산자</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">12</td>
+<td style="width: 38.9743%; height: 19px;">not </td>
+<td style="width: 49.78%; height: 19px;">Boolean NOT</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">13</td>
+<td style="width: 38.9743%; height: 19px;">and</td>
+<td style="width: 49.78%; height: 19px;"><span style="color: #333333;">Boolean AND</span></td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">14</td>
+<td style="width: 38.9743%; height: 19px;">or</td>
+<td style="width: 49.78%; height: 19px;"><span style="color: #333333;">Boolean OR</span></td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">15</td>
+<td style="width: 38.9743%; height: 19px;">if ~ else </td>
+<td style="width: 49.78%; height: 19px;">조건문, 비교문</td>
+</tr>, <tr style="height: 19px;">
+<td style="width: 11.2456%; height: 19px;">16</td>
+<td style="width: 38.9743%; height: 19px;">lambda</td>
+<td style="width: 49.78%; height: 19px;">람다식</td>
+</tr>, <tr>
+<th>
+<a href="/55?category=893214">[Python] up and down(업앤다운)게임 예제</a>  <span>(0)</span>
+</th>
+<td>
+2021.07.31</td>
+</tr>, <tr>
+<th>
+<a href="/51?category=893214">[Python] 복리 계산 프로그램 만들기 (복리 계산 공식, 예제)</a>  <span>(0)</span>
+</th>
+<td>
+2021.06.21</td>
+</tr>, <tr>
+<th>
+<a href="/48?category=893214">[Python] 파이썬 근의 공식 구하기 예제 #1 (math  사용)</a>  <span>(0)</span>
+</th>
+<td>
+2021.06.03</td>
+</tr>, <tr>
+<th>
+<a href="/41?category=893214">[Python] 홀수 마방진 만들기 (자동, 공식)</a>  <span>(0)</span>
+</th>
+<td>
+2021.05.13</td>
+</tr>, <tr>
+<th>
+<a href="/32?category=893214">[Python] 주석 / 한줄 주석, 여러줄 주석</a>  <span>(0)</span>
+</th>
+<td>
+2021.03.13</td>
+</tr>, <tr>
+<th>
+<a class="current" href="/26?category=893214">[Python] 연산자 우선순위 정리 / 파이썬 연산자 종류</a>  <span>(1)</span>
+</th>
+<td>
+2021.02.28</td>
+</tr>]

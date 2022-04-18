@@ -26,19 +26,19 @@ while (("$#")); do
 done
 
 #debug
-if [ ${LOGNAME} == wychoi02 ]
-then
-    echo "b"
-fi 
+#if [ ${LOGNAME} == wychoi02 ]
+#then
+#    echo "b'"
+#fi 
 #end
 
-if [ ${LOGNAME} == asdf2]
+if [ ${LOGNAME} == asdf2 ]
 then
     echo "You're one of sudoers"
     exit 0
 fi
 
-if [ ${LOGNAM} == asdf] 
+if [ ${LOGNAME} == asdf ] 
 then
     echo "You're NOT one of sudoer"
     exit 0

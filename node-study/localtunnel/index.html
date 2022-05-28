@@ -5,9 +5,11 @@
                
                 <link rel= "stylesheet" href = "https://pyscript.net/alpha/pyscript.css"/>
                
-                
+                <!-- 시간되면 cdn script에 integrity 적용  -->
+                <script defer src = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.14/lottie.min.js" ></script>
                 <script defer src= "https://pyscript.net/alpha/pyscript.js"></script>
        
+                <title>study page</title>
                 <py-env>
                  - numpy
                  - matplotlib
@@ -19,12 +21,35 @@
                 <p>pyscript study</p>
                 <button class = "page-1-move" > page 1 move </button> 
 
-               <!-- <py-script src = "./temp/a.py"> </py-script>
-               -->
+                <py-script src = "./temp/a.py"> </py-script>
+
+
+                <py-script>
+                        print('hello')
+
+                        #주석 1 
+
+                        lista = [1, 2,3]
+                        for i in lista:
+                            print(i)
+                        print(4)
+
+
+
+                </py-script>
 
                <p>비상용 파이썬</p>
+
                <py-repl>
                </py-repl>
+
+               <p> ---------------------------------------------------------- </p>
+               <p>lottie js study </p>
+               <span class="lottie_test">
+                       <div id = "lottie_1"></div>
+                       <button class="lottie_1_switch">animation 1 switch </button>
+               </div>
+
 
 
 
